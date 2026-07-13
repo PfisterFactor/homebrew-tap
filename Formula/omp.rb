@@ -7,22 +7,22 @@ class Omp < Formula
   on_macos do
     on_arm do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-darwin-arm64"
-      sha256 "394ddb8ec5f759ed235a0e4643f704033a2afa44fec263408949dbc10a452b0c"
+      sha256 "f165adeb2e460ea9d5083201a81931393cba3422eb1d9a7071df82acef94a981"
     end
     on_intel do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-darwin-x64"
-      sha256 "abfc0f5a1bed372af674eb8b1102c604921413fbea9d907eff152d18cfcccdab"
+      sha256 "3e1092e4e182b4789b6da592a116dceee3b4b028bb1fae122a680ef9c3e28c3a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-linux-arm64"
-      sha256 "ee6a45b628d725f7a04f1fbb315861e134bdb0434c1d14e4feaa81f9781399fb"
+      sha256 "edf241d663dda93e2a2e934134153bfba8b8796d37cb3d2deb84427733e9d06e"
     end
     on_intel do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-linux-x64"
-      sha256 "e571966db9f62434f6ea6e3a1051b54d0bedad957c0f2186dd41aa0c831528e7"
+      sha256 "8b25146d5a6aca6226ad2717b28f353d186ec2896f8d81d038dd8befb3f6cf34"
     end
   end
 
