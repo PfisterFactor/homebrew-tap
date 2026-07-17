@@ -1,28 +1,28 @@
 class Omp < Formula
   desc "AI coding agent for the terminal (read, bash, edit, write tools)"
   homepage "https://github.com/PfisterFactor/oh-my-pi"
-  version "16.5.2"
+  version "17.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-darwin-arm64"
-      sha256 "9e299de550e01b55c507bdcecace13844eb2f4c854fb3e074b447a14e025fdae"
+      sha256 "704025579ac4206a1702234a07a5d836b729a5f992d4afc9edccae3e0f98eedd"
     end
     on_intel do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-darwin-x64"
-      sha256 "e6dcaf3898adc85c17562996248690568f802c0ff41d16155665111d16dcddd0"
+      sha256 "90482158b3b8a70a39a83da871aa11761919aa9afe70e1971a9c7dadbb604d91"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-linux-arm64"
-      sha256 "57ffcb8d4d52b95f7107430cd2c97eba2e1c241e00e6cc5c2a5b6f3065602f6d"
+      sha256 "18568318e5ecbf7bcf6d33c1bb5eae2c9577542ba08f8461e7b06261eed028b6"
     end
     on_intel do
       url "https://github.com/PfisterFactor/oh-my-pi/releases/download/main-latest/omp-linux-x64"
-      sha256 "134437a081a0848cf6fd9b162ccea65b180fafa1ec3b266c285d0f61a8a203e2"
+      sha256 "4af8235f618e60747642ba5f275a9cfb48371694ea34261cdfe9d06c219b1e73"
     end
   end
 
